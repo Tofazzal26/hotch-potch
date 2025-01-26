@@ -1,0 +1,25 @@
+.line::before {
+  position: absolute;
+  content: "";
+  width: 360px;
+  height: 6px;
+  right: 35px;
+  top: 145px;
+  background: linear-gradient(to right, #fc6739, #ffc947);
+}
+
+.ellipse {
+  position: absolute;
+  top: 151px;
+  left: 883px;
+  width: 194px;
+  height: 200px;
+  filter: blur(120px);
+  background: rgba(159, 54, 242, 0.7);
+}
+
+@media only screen and (max-width: 640px) {
+  .line {
+    display: none;
+  }
+}

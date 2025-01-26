@@ -1,0 +1,29 @@
+.leftEllipse {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  width: 147px;
+  height: 152px;
+  filter: blur(120px);
+  background: rgba(255, 207, 115, 0.4);
+  border-radius: 50%;
+}
+.rightEllipse {
+  position: absolute;
+  top: 500px;
+  right: 0px;
+  width: 147px;
+  height: 152px;
+  filter: blur(120px);
+  background: rgba(242, 54, 144, 0.7);
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 640px) {
+  .leftEllipse {
+    display: none;
+  }
+  .rightEllipse {
+    display: none;
+  }
+}

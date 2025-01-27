@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import OurCustomerStyle from "./OurCustomerStyle/OurCustomerStyle.module.css";
 
 const OurCustomer = () => {
   return (

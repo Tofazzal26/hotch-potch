@@ -1,5 +1,6 @@
 import AuthenticResult from "@/components/AuthenticResult/AuthenticResult";
 import Brand from "@/components/Brand/Brand";
+import Exciting from "@/components/Exciting/Exciting";
 import Results from "@/components/Results/Results";
 import Image from "next/image";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Brand />
       <Results />
       <AuthenticResult />
+      <Exciting />
     </div>
   );
 }

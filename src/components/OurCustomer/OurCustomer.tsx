@@ -4,7 +4,7 @@ import OurCustomerStyle from "./OurCustomerStyle/OurCustomerStyle.module.css";
 
 const OurCustomer = () => {
   return (
-    <div className="bg-[#161823] mt-4 lg:mt-[100px]">
+    <div className="bg-[#161823] mt-4 lg:mt-[100px] pb-4 lg:pb-[100px]">
       <div className="container mx-auto">
         <div className="text-center text-white lg:pt-[80px]">
           <h2 className="text-[20px] lg:text-[42px]">What our customers say</h2>

@@ -1,0 +1,15 @@
+.ellipse {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 194px;
+  height: 200px;
+  z-index: -1;
+  filter: blur(120px);
+  background: rgba(159, 54, 242, 0.7);
+}
+@media only screen and (max-width: 640px) {
+  .ellipse {
+    display: none;
+  }
+}

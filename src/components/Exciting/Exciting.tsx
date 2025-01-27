@@ -8,7 +8,7 @@ const Exciting: React.FC = () => {
       <div className="lg:mt-[150px]">
         <div>
           <div className="text-white text-center">
-            <h2 className="text-[42px] font-semibold">
+            <h2 className="text-[20px] lg:text-[42px] font-semibold">
               54 exciting writing tools
             </h2>
             <p className="text-lg text-[#b4b4b7] mt-4 lg:w-[500px] mx-auto">
@@ -175,7 +175,7 @@ const Exciting: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="lg:mt-[60px]">
+          <div className="lg:mt-[60px] mt-4 lg:mb-0 mb-4">
             <h2 className="text-center font-semibold text-white">
               See all 54 available tools
             </h2>

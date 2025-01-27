@@ -1,6 +1,7 @@
 import AuthenticResult from "@/components/AuthenticResult/AuthenticResult";
 import Brand from "@/components/Brand/Brand";
 import Exciting from "@/components/Exciting/Exciting";
+import Mixland from "@/components/Mixland/Mixland";
 import Results from "@/components/Results/Results";
 import Image from "next/image";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Results />
       <AuthenticResult />
       <Exciting />
+      <Mixland />
     </div>
   );
 }

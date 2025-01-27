@@ -8,6 +8,21 @@
   filter: blur(150px);
   background: rgba(159, 54, 242, 0.7);
 }
+
+.btnAnimation:hover {
+  background: linear-gradient(
+    135deg,
+    rgb(92, 127, 255) 0%,
+    rgb(203, 92, 255) 100%
+  );
+  transition: all 0.3s ease;
+  transform: scale(1.02);
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
 @media only screen and (max-width: 640px) {
   .ellipse {
     display: none;

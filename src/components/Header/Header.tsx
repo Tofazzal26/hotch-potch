@@ -79,7 +79,9 @@ const Header: React.FC = () => {
             <button className="rounded-[5px] lg:text-base font-medium lg:px-6 px-2 py-[6px] text-sm lg:py-[12px] text-white border-[2px] border-[#6e6e6e]">
               Sign in
             </button>
-            <button className="rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-medium lg:px-6 px-2 lg:py-[14px] text-white py-2">
+            <button
+              className={`${HeaderStyle.btnAnimation} ${HeaderStyle.btn} rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-medium lg:px-6 px-2 lg:py-[14px] text-white py-2`}
+            >
               Get Started Free
             </button>
           </div>

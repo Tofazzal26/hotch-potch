@@ -15,7 +15,9 @@ const AuthenticResult: React.FC = () => {
               writing tool that helps you transform your text into a completely
               personalized.
             </p>
-            <button className="rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-semibold lg:px-6 px-2 lg:py-[16px] text-white py-2">
+            <button
+              className={`${AuthenticStyle.btnAnimation} ${AuthenticStyle.btn} rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-semibold lg:px-6 px-2 lg:py-[16px] text-white py-2`}
+            >
               Start 14 Days Free Trial
             </button>
           </div>

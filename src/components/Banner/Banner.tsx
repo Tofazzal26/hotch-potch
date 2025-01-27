@@ -22,7 +22,9 @@ const Banner: React.FC = () => {
             </p>
 
             <div className="flex flex-col justify-center items-center gap-5 lg:pb-0 pb-[40px]">
-              <button className="rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-semibold lg:px-6 px-2 lg:py-[16px] text-white py-2">
+              <button
+                className={`${BannerStyle.btnAnimation} ${BannerStyle.btn} rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-semibold lg:px-6 px-2 lg:py-[16px] text-white py-2`}
+              >
                 Start 14 Days Free Trial
               </button>
               <button className="font-semibold text-base text-white flex items-center gap-2">

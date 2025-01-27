@@ -74,7 +74,9 @@ const Results: React.FC = () => {
                 no cost. Start for free. Ai Writer Tool | Generate text for
                 ecom, social media, website, sales, blogs etc.
               </p>
-              <button className="rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-semibold lg:px-6 px-2 lg:py-[16px] text-white py-2">
+              <button
+                className={`${ResultStyle.btnAnimation} ${ResultStyle.btn} rounded-[5px] bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-semibold lg:px-6 px-2 lg:py-[16px] text-white py-2`}
+              >
                 Start 14 Days Free Trial
               </button>
             </div>

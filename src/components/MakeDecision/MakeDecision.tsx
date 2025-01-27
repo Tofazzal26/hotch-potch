@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import MakeDecisionStyle from "./MakeDecisionStyle/MakeDecisionStyle.module.css";
 
 const MakeDecision: React.FC = () => {
   return (
@@ -70,7 +71,9 @@ const MakeDecision: React.FC = () => {
                   </p>
                 </div>
                 <div>
-                  <button className="rounded-[10px] w-full bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-medium  px-2 lg:py-4 text-white py-2">
+                  <button
+                    className={`${MakeDecisionStyle.btnAnimation} ${MakeDecisionStyle.btn}  rounded-[10px] w-full bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] text-sm lg:text-base font-medium  px-2 lg:py-4 text-white py-2`}
+                  >
                     Get Started
                   </button>
                 </div>
@@ -104,7 +107,9 @@ const MakeDecision: React.FC = () => {
                   </p>
                 </div>
                 <div>
-                  <button className="text-base w-full font-bold border-2 border-[#12141D] py-2 lg:py-4 rounded-[10px]">
+                  <button
+                    className={` text-base w-full font-bold border-2 border-[#12141D] py-2 lg:py-4 rounded-[10px]`}
+                  >
                     Get Started
                   </button>
                 </div>

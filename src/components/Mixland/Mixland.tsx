@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 
 const Mixland = () => {
   return (
@@ -37,7 +37,7 @@ const Mixland = () => {
                 </div>
               </div>
               <div className="lg:w-[740px]">
-                <div className="bg-[#282a37] rounded-[10px]">
+                <div className="bg-[#282a37] rounded-[10px] relative">
                   <div className="px-6 py-5">
                     <div>
                       <div className="flex items-center gap-2 mb-6">
@@ -65,6 +65,7 @@ const Mixland = () => {
                       </h2>
                     </div>
                   </div>
+                  <div className="w-[200px] h-[180px] border-2 lg:block hidden top-[215px] left-[200px] border-dashed border-gray-500 absolute"></div>
                 </div>
               </div>
             </div>

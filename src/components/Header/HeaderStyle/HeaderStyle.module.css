@@ -19,6 +19,20 @@
   border-radius: 50%;
 }
 
+.btnAnimation:hover {
+  background: linear-gradient(
+    135deg,
+    rgb(92, 127, 255) 0%,
+    rgb(203, 92, 255) 100%
+  );
+  transition: all 0.3s ease;
+  transform: scale(1.02);
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
 @media only screen and (max-width: 640px) {
   .leftEllipse {
     display: none;

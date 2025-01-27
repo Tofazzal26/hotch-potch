@@ -1,13 +1,16 @@
 .ellipse {
   position: absolute;
-  top: 180px;
-  left: 280px;
+  top: 150px;
+  left: -50px;
   width: 194px;
   height: 200px;
-  z-index: -1;
-  filter: blur(150px);
-  background: rgba(159, 54, 242, 0.7);
+  filter: blur(140px);
+  background: rgba(54, 129, 242, 0.7);
 }
+.hello {
+  font-size: 400px;
+}
+
 @media only screen and (max-width: 640px) {
   .ellipse {
     display: none;
